@@ -2,7 +2,7 @@
   "name": "profolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://DjMikeLin.github.io/profolio",
+  "homepage": "http://DjMikeLin.github.io/Personal-Website",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
