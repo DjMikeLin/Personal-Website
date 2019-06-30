@@ -8,7 +8,7 @@ class Navbar extends React.Component{
         return(
             <Header>
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["1"]}>
-                    <Menu.Item key="1" style={{ 'marginRight': '20%', 'background': 'orange' }}>
+                    <Menu.Item key="1" style={{ 'marginRight': '20%' }}>
                             <Icon type="home" theme="outlined" style={{ 'fontSize': '3em', 'margin': '20% auto' }}/>
                     </Menu.Item>
                     <Menu.Item key="2">

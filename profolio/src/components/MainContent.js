@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const { Content } = Layout;
 
 const StyledContent = styled(Content)`
+    height: 100%;
 `;
 
 class MainContent extends React.Component{
