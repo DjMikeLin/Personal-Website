@@ -1,9 +1,5 @@
 const axios = require('axios');
 
-export function result(){
-    axios.get('https://api.github.com/users/djmikelin/repos')
-        .then(res => {            
-            console.log("success");
-            return res;
-        });
+export async function allProjects(){
+    return await axios.get('https://api.github.com/users/djmikelin/repos');
 }

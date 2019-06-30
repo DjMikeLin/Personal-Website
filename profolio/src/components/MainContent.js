@@ -1,6 +1,7 @@
 import React from 'react';
 import { Layout } from 'antd';
 import styled from 'styled-components'; 
+import Projects from './Projects';
 
 const { Content } = Layout;
 
@@ -12,7 +13,7 @@ class MainContent extends React.Component{
     render(){
         return(
             <StyledContent>
-                Hello world 
+                <Projects /> 
             </StyledContent>
         )
     }
