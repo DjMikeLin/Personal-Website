@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from './Navbar';
 import { Layout } from 'antd';
 import MainContent from './MainContent';
+import Side from './Side';
 
-const { Footer, Sider } = Layout;
+const { Footer } = Layout;
 
 class Homepage extends React.Component{
     render(){
@@ -12,7 +13,7 @@ class Homepage extends React.Component{
                 <Navbar />
                 <Layout>
                     <MainContent />
-                    <Sider>Sider</Sider>
+                    <Side />
                 </Layout>
                 <Footer>Footer</Footer>
             </Layout>

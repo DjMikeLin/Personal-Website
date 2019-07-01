@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd profolio/
+npm run deploy
+cd ..
+git push

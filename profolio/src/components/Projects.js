@@ -6,7 +6,7 @@ class Projects extends React.Component{
     state = {
         projects: []
     }
-    //When component loads update state, get all repos from github and sort then by creation date
+    //when component loads update state, get all repos from github and sort then by creation date
     componentDidMount = async() => {
         let repos = (await allProjects()).data;
         repos.sort(function(a,b){
